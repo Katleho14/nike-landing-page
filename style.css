@@ -202,41 +202,54 @@ nav{
 
 /* Small devices (smartphones) */
 @media only screen and (max-width: 600px) {
-    .content {
-        width: 80%;
-    }
-    .heading {
-        font-size: 20px;
-    }
-    .description {
-        font-size: 10px;
-    }
-    .button {
-        padding: 4px 8px;
-        font-size: 12px;
-    }
-    .product-img {
-        width: 300px;
-        height: 400px;
-    }
-    .variant {
-        width: 30px;
-        height: 40px;
-    }
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    .logo-img {
-        width: 100px;
-        height: 70px;
-        left: 0;
-    }
-    .nav-menu {
-        flex-direction: column;
-    }
-    .nav-item {
-        margin: 10px 0;
-    }
+  .content {
+    width: 80%;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  .product-img {
+    width: 300px;
+    height: 400px;
+  }
+  .variant {
+    width: 30px;
+    height: 40px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-img {
+    width: 100px;
+    height: 70px;
+    left: 0;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-item {
+    margin: 10px 0;
+  }
+  /* Add these styles to make it work on mobile devices */
+  .header {
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 20px;
+  }
+  .product-img {
+    margin-top: 20px;
+  }
+  .variants {
+    position: relative;
+    bottom: 0;
+  }
 }
-       
